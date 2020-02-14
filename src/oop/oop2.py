@@ -37,9 +37,9 @@ print(Motorcycle.drive())
 vehicles = [
     GroundVehicle(),
     GroundVehicle(),
-    # Motorcycle()
-    # GroundVehicle(),
-    # Motorcycle(),
+    Motorcycle()
+    GroundVehicle(),
+    Motorcycle(),
 ]
 
 # Go through the vehicles list and print the result of calling drive() on each.
